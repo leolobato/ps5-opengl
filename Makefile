@@ -102,6 +102,7 @@ test:
 	python3 -m unittest discover -s tools -p 'test_*.py'
 	python3 tests/ps5/test_egl_drawable.py
 	python3 tests/ps5/test_egl_context_attributes.py
+	python3 tests/ps5/test_thread_local_wrappers.py
 	python3 tools/test_sdl_sdk.py
 	python3 tests/ps5/test_gpu_clear_state.py
 	python3 tests/ps5/test_vertex_layout_state.py
@@ -111,6 +112,7 @@ test:
 	python3 tests/ps5/test_linear_color_targets.py
 	python3 tests/ps5/test_render_target_extents.py
 	python3 tests/ps5/test_draw_profile.py
+	python3 tests/ps5/test_profile_log.py
 	python3 tests/ps5/test_display_modes.py
 	python3 tests/ps5/test_framebuffer_fallbacks.py
 	python3 tests/ps5/test_gpu_present.py
